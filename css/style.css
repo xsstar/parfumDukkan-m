@@ -1,0 +1,86 @@
+
+  body.anasayfa{
+    margin: 0;
+    text-align: center;
+    color: rgb(10, 7, 9);
+    background-color: rgb(96, 79, 139);
+    padding: 0;
+  } 
+
+  body.about{
+    margin: 0;
+    text-align: center;
+    color: rgb(10, 7, 9);
+    background-color: rgb(96, 79, 139);
+    padding: 0;
+  } 
+
+  .anasyf{
+    background: violet;
+    color: rgb(86, 42, 122); 
+  }
+  body.pr{
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 111, 154);
+    padding: 0;
+  } 
+
+  .product{
+    color: rgb(0, 0, 0); 
+    font-weight: 1000;
+    font-style: italic;
+  }
+  .price{
+    background: rgb(230, 230, 230);
+    color: rgb(0, 0, 0); 
+    font-weight: 1000;
+    
+  }
+  img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .imgwoman {
+    height: 500px;
+    width: 500px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-position: inside;
+    background-color: rgb(96, 79, 139);
+  }
+  
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-position: inside;
+    background-color: rgb(238, 199, 228);
+  }
+  li a {
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:violet;
+    color: rgb(18, 19, 65);
+    list-style-position: inside;
+    list-style: none;
+    font-weight: 1000;
+  }
+  
+  /* .active {
+    background-color: #dbd2db;
+  } */
